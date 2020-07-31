@@ -15,7 +15,7 @@ const bindUserToViewLocals = require('./middleware/bind-user-to-view-locals.js')
 const indexRouter = require('./routes/index');
 const authenticationRouter = require('./routes/authentication');
 
-console.log('im changing something...')
+console.log('Hello world')
 
 const app = express();
 
