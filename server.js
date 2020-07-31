@@ -9,6 +9,8 @@ const mongoose = require('mongoose');
 const PORT = parseInt(process.env.PORT, 10);
 const URI = process.env.MONGODB_URI;
 
+console.log('Something else here');
+
 const terminate = error => {
   if (error) debug(error);
   const exitCode = error && error instanceof Error ? 1 : 0;
